@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silvana Arevalo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Aprendizaje Automático</h1>
+    <p>
+        <em>Machine Learning</em> o <em>Aprendizaje Automático</em> tiene por objetivo desarrollar programas
+        que sean capaces de aprender tareas por sí mismos. Una de las definiciones clásicas se encuentra en el libro
+        de Mitchel, donde el autor define que un programa aprende si su rendimiento de acuerdo a una <strong>métrica S</strong> sobre
+        una <strong>Tarea T</strong> mejora con la exposición a ejemplos (datos).
+    </p>
+    <p>
+        De ahí que el Aprendizaje Automático, a diferencia del esquema típico de resolución de problemas por programación, trata de inferir
+        patrones y relaciones por sí mismo a partir de los datos. Por esta razón su ámbito de aplicación son aquellos casos en donde
+        no es factible realizar un modelamiento del problema de manera determinística, sino que requerimos un enfoque probabilístico
+        derivado de los datos.
+    </p>
+    <h2>Tipos de Aprendizaje Automático</h2>
+    <p>¿Qué algoritmo te gustaría aprender?</p>
+    <div class="formulario1" onchange="print_seleccion(this)">
+        <select name="selectorAlgoritmos" id="selectorAlgoritmos">
+            <option value="Aprendizaje Supervisado">Aprendizaje Supervisado</option>
+            <option value="Aprendizaje No Supervisado">Aprendizaje No Supervisado</option>
+            <option value="Aprendizaje por Refuerzo">Aprendizaje por Refuerzo</option>
+        </select>
+    </div>
+    <div class="formulario1enviar">
+        <p id="loqueseleccione">Seleccionaste <em>Aprendizaje Supervisado</em></p>
+        <button type="button" id="enviarboton">Enviar</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

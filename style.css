@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: blanchedalmond;
+}
+
+p{
+    padding: 10px;
+    font-weight: normal;
+}
+
+h1{
+    text-align: center;
+    background-color: rebeccapurple;
+    color: whitesmoke;
+    font-style: italic;
+}
+
+h2{
+    text-align: left;
+}
+
+#selectorAlgoritmos{
+    padding: 20px;
+    margin: 20px;
+    justify-content: flex-start;
+}
+
+.formulario1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#enviarboton{
+    background-color: #2255ff;
+    height: 50px;
+    width: 150px;
+    color: whitesmoke;
+}
+
+.formulario1enviar{
+    display: flex;
+}
